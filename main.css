@@ -17,7 +17,8 @@ p {
 }
 
 
-.article-title{
+.article-title,
+.article-label{
     text-align: center;
     margin: 0 auto 4rem auto;
 }
@@ -25,3 +26,9 @@ p {
 .article-title {
     font-size: 3.6rem;
 }
+
+.article-label {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
