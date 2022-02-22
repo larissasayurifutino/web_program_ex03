@@ -16,11 +16,12 @@ p {
     width: 100%;
 }
 
-
+h2.subtitle,
 .article-title,
 .article-author{
     text-align: center;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 .article-title {
