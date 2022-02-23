@@ -2,8 +2,12 @@
 ** EXERCÍCIO - AULA 03 **
 ***********************/
 
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swa');
+
+
 html,
 body {
+    font-family: 'Heebo'
     margin: 0 auto;
 }
 
@@ -11,13 +15,14 @@ body {
     box-sizing: border-box;
 }
 
-
 h2.subtitle,
 .article-title,
 .article-author{
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
+    max-width: 35rem;
+    margin: 1rem auto;
 }
 
 .article-title {
@@ -32,8 +37,6 @@ h2.subtitle,
 h2.subtitle {
     font-size: 2.2rem;
     font-weight: var(--font-weight-lead);
-    text-align: center;
-    margin: 0 auto;
 }
 
 p {
@@ -41,5 +44,7 @@ p {
     padding: 0 6rem;
     display: block;
     width: 100%;
+    max-width: 35rem;
+    margin: 1rem auto;
 }
 
